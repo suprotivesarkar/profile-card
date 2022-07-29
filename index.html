@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Card Profile</title>
+</head>
+<body>
+	
+    <div class="card" data-state="#about">
+        <div class="card-header">
+            <div class="card-cover" style="background-image: url('images/image_background.jpg')"></div>
+            <img class="card-avatar" src="images/profile.jpg" alt="avatar" />
+            <h1 class="card-fullname">Suprotive Sarkar</h1>
+            <h2 class="card-jobtitle">UI Developer</h2>
+        </div>
+        <div class="card-main">
+            <div class="card-section is-active" id="about">
+                <div class="card-content">
+                    <div class="card-subtitle">ABOUT</div>
+                    <p class="card-desc">I'm a confident, active, hardworking and a computer enthusiast because it makes me feel I am contributing something or other.</p>
+                </div>
+                <div class="card-social">
+                    <a href="https://www.facebook.com/suprotivesarkar03/">
+						<i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/mr_sarkarr/">
+						<i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/suprotivesarkar/">
+						<i class="fa fa-linkedin-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card-section" id="experience">
+                <div class="card-content">
+                    <div class="card-subtitle">WORK EXPERIENCE</div>
+                    <div class="card-timeline">
+                        <div class="card-item" data-year="2020">
+                            <div class="card-item-title">Web Developer Intern at 
+                                <span>Infinity Web</span>
+                            </div>
+                            <div class="card-item-desc">Maintained, developed and deployed websites using PHP-PDO and SQL</div>
+                        </div>
+                        <div class="card-item" data-year="2021">
+                            <div class="card-item-title">Web Developer Intern at 
+                                <span>Tranzposing Gradient</span>
+                            </div>
+                            <div class="card-item-desc">Maintained, developed and deployed websites using PHP-PDO and SQL</div>
+                        </div>
+                        <!-- <div class="card-item" data-year="2022">
+                            <div class="card-item-title">Web Developer at 
+                                <span>XYZ Co.</span>
+                            </div>
+                            <div class="card-item-desc"> Full Stack Developer using JavaScript frameworks</div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="card-section" id="contact">
+                <div class="card-content">
+                    <div class="card-subtitle">CONTACT</div>
+                    <div class="card-contact-wrapper">
+                        <div class="card-contact">
+                            <i class="fa fa-map-marker"></i>
+								Siliguri, WestBengal(734004)
+                        </div>
+                        <div class="card-contact">
+                            <i class="fa fa-mobile"></i>(+91)90643 89417
+                        </div>
+                        <div class="card-contact">
+							<i class="fa fa-envelope-o"></i>
+                    		suprotivesarkar@gmail.com
+                        </div>
+                        <a href="mailto:suprotivesarkar@gmail.com"><button class="contact-me">HIRE ME</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-buttons">
+                <button data-section="#about" class="is-active">ABOUT</button>
+                <button data-section="#experience">EXPERIENCE</button>
+                <button data-section="#contact">CONTACT</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/internal.js"></script>
+
+</body>
+</html>
